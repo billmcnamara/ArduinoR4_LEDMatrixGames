@@ -20,7 +20,7 @@ For Pinouts to the Joystick see:
 
 ### Instructions
 
-While the LED matrix main menu displays P/S or FB in rotation. press the Joystick button to play the corresponding game.
+While the LED matrix main menu displays P/S or FB in rotation, press the Joystick button to play the corresponding game.
 
 ### Game instructions:
    
@@ -28,8 +28,8 @@ While the LED matrix main menu displays P/S or FB in rotation. press the Joystic
    
     pong: up/down
    
-    flappy bird: button press (shorter than 2 secs)
+    flappy bird: button press (shorter than 5 secs or you will exit back to menu)
 
 scores in serial output.
 
-While in game mode, to exit, long press the Joystick button.  Pressing for more than 2secs will bring back the menu.
+While in game mode, to exit, long press the Joystick button.  Pressing for more than 5secs will bring back the menu.

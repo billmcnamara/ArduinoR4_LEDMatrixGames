@@ -592,9 +592,9 @@ bool exitConditionMet() {
     if (buttonWasPressed) {
       // Button was just released
       unsigned long elapsedTime = millis() - pressStartTime;
-      if (elapsedTime >= 2000) {
-        // Button was held for 2 seconds
-        Serial.println("Button held for > 2s, exiting.");
+      if (elapsedTime >= 5000) {
+        // Button was held for 5 seconds
+        Serial.println("Button held for > 5s, exiting.");
         buttonWasPressed = false; // Reset button state for next press
         return true;
       }
