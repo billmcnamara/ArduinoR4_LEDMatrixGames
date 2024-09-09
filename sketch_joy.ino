@@ -465,7 +465,7 @@ void runFlappy() {
     menuDisplayed = true;
     Serial.println("Exiting Flappy Bird. Returning to menu.");
   } else if (!gameOver) {
-    Serial.println("Flappy Bird Game Running");
+    // Serial.println("Flappy Bird Game Running");
 
     // Read joystick button
     joyb = button.getState();
@@ -556,6 +556,7 @@ void flappyReset() {
   gapY = 3;
   gameOver = false;
   Serial.println("Flappy Bird Game Reset.");
+  flappyscore = 0;
 }
 
 /**********************
